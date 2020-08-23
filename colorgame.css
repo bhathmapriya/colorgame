@@ -1,0 +1,64 @@
+body{
+    background: #232323;
+    margin: 0;
+    font-family: Montserrat;
+}
+#container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    grid-gap: 10px;
+    margin: 100px 385px 100px 385px;
+}
+.square{
+    border-radius: 5%;
+    transition:  0.5s;      
+}
+h2{
+    color: white;
+    line-height: 1.1;
+    background-color:steelblue;
+    font-family:Montserrat;
+    text-align: center;
+   padding:20px 0px 20px 0px;
+    margin: 0;
+    font-weight: normal;
+}
+#top{
+    font-size: 200%;
+}
+#message{
+    display: inline-block;
+    width: 20%;
+    color:black;
+}
+#para{
+    background-color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.btnclr{
+    background-color:steelblue;
+    color: white;
+}
+button{
+    border: none;
+    background: none;
+    margin-top: 0;
+    text-transform: uppercase;
+    height: 25;
+    font-weight: 700;
+    color: steelblue;
+    font-size: inherit;
+    outline: none;
+}
+button:hover{
+    
+    background-color:steelblue;
+    color: white;
+    transition: all 0.5s;
+    font-size: inherit;
+
+}
